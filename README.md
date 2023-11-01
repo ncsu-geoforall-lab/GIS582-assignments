@@ -1,4 +1,4 @@
-# GIS715-assignments
+# GIS582-assignments
 
 To run online use: [WholeTale](https://dashboard.wholetale.org/run/6542bb1ac67faf246f3ab457?tab=interact)
 
