@@ -38,3 +38,4 @@ xvfb
 zlib1g-dev
 parallel
 libomp-dev
+xelatex
