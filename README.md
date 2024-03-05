@@ -12,7 +12,7 @@ GitHub for collaboration.
 
 ### Completed Notebooks
 
-* ['6. Viewshed, solar energy potential analysis'](./6%20-%20Viewshed,%20solar%20energy%20potential%20analysis/)
+* [6 - Viewshed, solar energy potential analysis](./6%20-%20Viewshed,%20solar%20energy%20potential%20analysis/)
 * [7AB - Flow Modeling](./7AB%20-%20Flow%20Modeling/)
 
 ### Work in Progress
@@ -31,12 +31,12 @@ For more information on the course, visit [the course website](https://ncsu-geof
 
 ## Authors
 
-- Corey White, NC State University, Center for Geospatial Analytics
-- Helena Mitasova, NC State University, Center for Geospatial Analytics
-- Caitlin Haedrich, NC State University, Center for Geospatial Analytics
-- Anna Petrasova, NC State University, Center for Geospatial Analytics
-- Pratikshya Regmi, NC State University, Center for Geospatial Analytics
-- Vaclav Petras, NC State University, Center for Geospatial Analytics
+* Corey White, NC State University, Center for Geospatial Analytics
+* Helena Mitasova, NC State University, Center for Geospatial Analytics
+* Caitlin Haedrich, NC State University, Center for Geospatial Analytics
+* Anna Petrasova, NC State University, Center for Geospatial Analytics
+* Pratikshya Regmi, NC State University, Center for Geospatial Analytics
+* Vaclav Petras, NC State University, Center for Geospatial Analytics
 
 ## License
 
