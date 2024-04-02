@@ -15,19 +15,19 @@ If you are unfimiliar with Jupyter Notebooks please review: jupyter-notebook-int
 
 
 # 2) Click on Run Tale
-![Preview image](Wholetale_steps\Wholetale_1.png)
+![Preview image](Wholetale_steps/Wholetale_1.png)
 
 # 3) Click on Confirm
-![Preview image](Wholetale_steps\Wholetale_2.png)
+![Preview image](Wholetale_steps/Wholetale_2.png)
 
 # 4) You will see importing on the top right corner. If it keeps on spinning for a while refresh your browser.
-![Preview image](Wholetale_steps\Wholetale_3.png)
+![Preview image](Wholetale_steps/Wholetale_3.png)
 
 # 5)  Click on Acknowledge all
-![Preview image](Wholetale_steps\Wholetale_4.png)
+![Preview image](Wholetale_steps/Wholetale_4.png)
 
 # 6) Go to 7AB- Flow Modelling and Start working 
-![Preview image](Wholetale_steps\Wholetale_5.png)
+![Preview image](Wholetale_steps/Wholetale_5.png)
 
 ## When you have finished the assignment, export the completed notebook as a PDF and submit it to Moodle.
 
