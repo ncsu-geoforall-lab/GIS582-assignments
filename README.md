@@ -24,7 +24,7 @@ GitHub for collaboration.
 
 ## Tutorials
 
-* [JupyterOnWindows.ipynb](https://github.com/ncsu-geoforall-lab/GIS714-assignments/blob/main/GRASS_GIS_Foundations/JupyterOnWindows_Tutorial.ipynb) - Learn how to use Juypter Notesbooks on a windows machine,
+* [JupyterOnWindows_OSGeo4W_Tutorial.ipynb](https://github.com/ncsu-geoforall-lab/GIS714-assignments/blob/main/GRASS_GIS_Foundations/JupyterOnWindows_OSGeo4W_Tutorial.ipynb) - Learn how to use Juypter Notesbooks on a windows machine,
 * [JupyterOnMac.ipynb](https://github.com/ncsu-geoforall-lab/GIS714-assignments/blob/main/GRASS_GIS_Foundations/JupyterOnMac_Tutorial.ipynb) - Learn how to use Juypter Notesbooks on a Mac,
 
 For more information on the course, visit [the course website](https://ncsu-geoforall-lab.github.io/geospatial-modeling-course/).
