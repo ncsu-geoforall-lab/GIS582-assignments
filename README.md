@@ -12,12 +12,13 @@ GitHub for collaboration.
 
 ### Completed Notebooks
 
+* [1 - Introduction to Jupyter Notebooks](./1%20-%20Introduction%20to%20Jupyter%20Notebooks/)
+* [2 - Geospatial Data Models and Visualization](./2AB%20-%20Geospatial%20Data/README.md)
 * [6 - Viewshed, solar energy potential analysis](./6%20-%20Viewshed,%20solar%20energy%20potential%20analysis/)
 * [7AB - Flow Modeling](./7AB%20-%20Flow%20Modeling/)
 
 ### Work in Progress
 
-* [2AB - Geospatial Data](./2AB%20-%20Geospatial%20Data/)
 * [3AB - Geospatial Analysis](./3AB%20-%20Analysis/)
 * [4AB - Interpolation](./4AB%20-%20Interpolation/)
 * [5AB - Geomorphology](./5AB%20-%20Geomorphology/)
