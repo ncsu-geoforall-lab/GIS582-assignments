@@ -33,7 +33,9 @@ __*Windows Users:* You will need to make additional modifications to get this no
 g.region res=100 -p
 r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
 ```
-    Should be reformatted:
+
+Should be reformatted:
+    
 ```bash
 !g.region res=100 -p
 !r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
