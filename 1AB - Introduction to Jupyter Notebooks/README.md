@@ -26,7 +26,6 @@ Tutorial 1B. [![Open in Colab](https://colab.research.google.com/assets/colab-ba
 Assignment 1B.
 [![Open Assignment 1B in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1B_Assignment.ipynb)
 
-
 ### Local Notebooks
 
 If you prefer to run the notebooks locally, clone this repository and open the notebooks in JupyterLab or Jupyter Notebook.
