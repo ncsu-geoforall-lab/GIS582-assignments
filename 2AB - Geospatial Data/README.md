@@ -23,6 +23,37 @@ The easiest way to run this assignment is using Google Colab. Click the badges b
 
 If you prefer to run the notebooks locally, clone this repository and open the notebooks in JupyterLab or Jupyter Notebook.
 
+When running locally, you can delete or skip the set up cells for Google Colab. Start with the __GRASS Setup__ section.
+
+__*Windows Users:* You will need to make additional modifications to get this notebook to run.__
+
+1. `%%bash` only works on unix machines (i.e. Mac and Linux). You will need to replace this with `!` in front of each terminal command. For example,:
+```bash
+%%bash
+g.region res=100 -p
+r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
+```
+    Should be reformatted:
+```bash
+!g.region res=100 -p
+!r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
+```
+
+2. On Windows machines, the GRASS executable is called `grass84` or `grass85` instead of `grass`. During GRASS Setup, replace the "Ask GRASS where its Python packages are" with: 
+```python
+# Ask GRASS GIS where its Python packages are.
+sys.path.append(
+    subprocess.check_output(["grass84", "--config", "python_path"], text=True, shell=True).strip()
+)
+```
+
+Note that in addition to changing the `grass` call,  `subprocess.check_output()` behaves slightly differently and needs the `shell=True` keyword argument.
+
+3. Similarly, when downloading the sample project, change the `path` and the GRASS executable name:
+```bash
+!grass84 --tmp-project XY --exec g.download.project url=https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz path="C:\YOUR\PATH\HERE\"
+```
+
 ### Requirements
 
 - [GRASS 8.4.1 or later installed with Python support](https://grass.osgeo.org/download/).
