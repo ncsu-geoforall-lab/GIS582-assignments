@@ -12,7 +12,7 @@ Knowledge of GIS principles at an introductory level or strong computational bac
 
 ## Notebooks
 
-* [1 - Introduction to Jupyter Notebooks](./1%20-%20Introduction%20to%20Jupyter%20Notebooks/README.md)
+* [1 - Introduction to Jupyter Notebooks](./1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/README.md)
   * mapping natural phenomena
   * coordinate reference system, projections, transformations
   * introduction to open source concepts
