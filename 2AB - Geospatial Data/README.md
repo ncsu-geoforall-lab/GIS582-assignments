@@ -25,8 +25,8 @@ If you prefer to run the notebooks locally, clone this repository and open the n
 
 ### Requirements
 
-- [GRASS 8.4.2 or later installed with Python support](https://grass.osgeo.org/download/).
-- Python >=3.8
+- [GRASS 8.4.1 or later installed with Python support](https://grass.osgeo.org/download/).
+- Python >=3.8 (Tested with 3.12.12)
 - [JupyterLab or Jupyter Notebook installed](https://jupyter.org/install).
 
 ## Contact
