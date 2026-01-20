@@ -53,6 +53,7 @@ Note that in addition to changing the `grass` call,  `subprocess.check_output()`
 ```bash
 !grass84 --tmp-project XY --exec g.download.project url=https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz path="C:\YOUR\PATH\HERE\"
 ```
+For the path, here is an example path `C:\Users\chaedri\Documents\GIS582\`. In this GIS882 directory, you could also have this github repository stored. In this configuration, you could launch GRASS in Assignment 2A with `gj.init("../../nc_spm_08_grass7/user1")` or with `gj.init("C:\Users\chaedri\Documents\GIS582\nc_spm_08_grass7/user1")`.
 
 ### Requirements
 
