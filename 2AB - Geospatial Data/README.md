@@ -28,34 +28,38 @@ When running locally, you can delete or skip the set up cells for Google Colab. 
 __*Windows Users:* You will need to make additional modifications to get this notebook to run.__
 
 1. `%%bash` only works on unix machines (i.e. Mac and Linux). You will need to replace this with `!` in front of each terminal command. For example,:
-```bash
-%%bash
-g.region res=100 -p
-r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
-```
 
-Should be reformatted:
-    
-```bash
-!g.region res=100 -p
-!r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
-```
+    ```bash
+    %%bash
+    g.region res=100 -p
+    r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
+    ```
 
-2. On Windows machines, the GRASS executable is called `grass84` or `grass85` instead of `grass`. During GRASS Setup, replace the "Ask GRASS where its Python packages are" with: 
-```python
-# Ask GRASS GIS where its Python packages are.
-sys.path.append(
-    subprocess.check_output(["grass84", "--config", "python_path"], text=True, shell=True).strip()
-)
-```
+    Should be reformatted:
 
-Note that in addition to changing the `grass` call,  `subprocess.check_output()` behaves slightly differently and needs the `shell=True` keyword argument.
+    ```bash
+    !g.region res=100 -p
+    !r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
+    ```
+
+2. On Windows machines, the GRASS executable is called `grass84` or `grass85` instead of `grass`. During GRASS Setup, replace the "Ask GRASS where its Python packages are" with:
+
+    ```python
+    # Ask GRASS GIS where its Python packages are.
+    sys.path.append(
+        subprocess.check_output(["grass84", "--config", "python_path"], text=True, shell=True).strip()
+    )
+    ```
+
+    Note that in addition to changing the `grass` call,  `subprocess.check_output()` behaves slightly differently and needs the `shell=True` keyword argument.
 
 3. Similarly, when downloading the sample project, change the `path` and the GRASS executable name:
-```bash
-!grass84 --tmp-project XY --exec g.download.project url=https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz path="C:\YOUR\PATH\HERE\"
-```
-For the path, here is an example path `C:\Users\chaedri\Documents\GIS582\`. In this GIS882 directory, you could also have this github repository stored. In this configuration, you could launch GRASS in Assignment 2A with `gj.init("../../nc_spm_08_grass7/user1")` or with `gj.init("C:\Users\chaedri\Documents\GIS582\nc_spm_08_grass7/user1")`.
+
+    ```bash
+    !grass84 --tmp-project XY --exec g.download.project url=https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz path="C:\YOUR\PATH\HERE\"
+    ```
+
+    For the path, here is an example path `C:\Users\chaedri\Documents\GIS582\`. In this GIS882 directory, you could also have this github repository stored. In this configuration, you could launch GRASS in Assignment 2A with `gj.init("../../nc_spm_08_grass7/user1")` or with `gj.init("C:\Users\chaedri\Documents\GIS582\nc_spm_08_grass7/user1")`.
 
 ### Requirements
 
