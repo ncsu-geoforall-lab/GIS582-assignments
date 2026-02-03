@@ -17,7 +17,7 @@ The easiest way to run this assignment is using Google Colab. Click the badges b
 
 #### 3B Tutorial/Assignment
 
-Coming soon!
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/3AB%20-%20Analysis/3B_Tutorial.ipynb)
 
 ### Local Notebooks
 
