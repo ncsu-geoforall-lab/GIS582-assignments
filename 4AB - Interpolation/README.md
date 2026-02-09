@@ -17,9 +17,7 @@ The easiest way to run this assignment is using Google Colab. Click the badges b
 
 #### 4B Tutorial/Assignment: Spatial interpolation: splines
 
-Comming soon.
-
-<!-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/4AB%20-%20Interpolation/4B_Tutorial.ipynb) -->
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/4AB%20-%20Interpolation/4B_Tutorial.ipynb)
 
 ### Local Notebooks
 
