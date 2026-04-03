@@ -13,7 +13,7 @@ The easiest way to run this assignment is using Google Colab. Click the badges b
 
 #### 6 Tutorial/Assignment: Geomorphometry I: Terrain Modeling
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/6 - Viewshed%2C solar energy potential analysis/6A_Tutorial.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/6%20-%20Viewshed%2C%20solar%20energy%20potential%20analysis/6A_Tutorial.ipynb)
 
 ### Local Notebooks
 
