@@ -5,6 +5,10 @@
 Please visit the course website for full details:
 [https://ncsu-geoforall-lab.github.io/geospatial-modeling-course/topics/data_models_visu.html](https://ncsu-geoforall-lab.github.io/geospatial-modeling-course/topics/data_models_visu.html)
 
+### Note on the Colab setup
+
+The tutorial installs GRASS 8.5 from conda-forge using [condacolab](https://github.com/conda-incubator/condacolab). The condacolab install cell restarts the Colab runtime exactly once; Colab reports "Your session crashed for an unknown reason", which is expected. Wait for the runtime to reconnect and continue with the next cell.
+
 ## Repository structure
 
 The easiest way to run this assignment is using Google Colab. Click the badges below to open the tutorial and assignment notebooks in Colab.
@@ -42,12 +46,12 @@ __*Windows Users:* You will need to make additional modifications to get this no
     !r.resamp.stats elev_ned_30m out=elev_new100m_avg method=average
     ```
 
-2. On Windows machines, the GRASS executable is called `grass84` or `grass85` instead of `grass`. During GRASS Setup, replace the "Ask GRASS where its Python packages are" with:
+2. On Windows machines, the GRASS executable is called `grass85` instead of `grass`. During GRASS Setup, replace the "Ask GRASS where its Python packages are" with:
 
     ```python
-    # Ask GRASS GIS where its Python packages are.
+    # Ask GRASS where its Python packages are.
     sys.path.append(
-        subprocess.check_output(["grass84", "--config", "python_path"], text=True, shell=True).strip()
+        subprocess.check_output(["grass85", "--config", "python_path"], text=True, shell=True).strip()
     )
     ```
 
@@ -56,16 +60,18 @@ __*Windows Users:* You will need to make additional modifications to get this no
 3. Similarly, when downloading the sample project, change the `path` and the GRASS executable name:
 
     ```bash
-    !grass84 --tmp-project XY --exec g.download.project url=https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz path="C:\YOUR\PATH\HERE\"
+    !grass85 --tmp-project XY --exec g.download.project url=https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz path="C:\YOUR\PATH\HERE\"
     ```
 
     For the path, here is an example path `C:\Users\chaedri\Documents\GIS582\`. In this GIS882 directory, you could also have this github repository stored. In this configuration, you could launch GRASS in Assignment 2A with `gj.init("../../nc_spm_08_grass7/user1")` or with `gj.init("C:\Users\chaedri\Documents\GIS582\nc_spm_08_grass7/user1")`.
 
 ### Requirements
 
-- [GRASS 8.4.1 or later installed with Python support](https://grass.osgeo.org/download/).
+- [GRASS 8.5 or later installed with Python support](https://grass.osgeo.org/download/) (the tutorial uses the `grass.tools` API introduced in 8.5; in Colab it is installed from conda-forge via condacolab).
 - Python >=3.8 (Tested with 3.12.12)
 - [JupyterLab or Jupyter Notebook installed](https://jupyter.org/install).
+- GRASS addons `v.in.ags` and `t.stac` (installed in the notebook with `g.extension`).
+- Python packages `pystac`, `pystac-client`, and `tqdm` (for t.stac) and `pyvista` with `trame` (for the 3D section); the notebook installs these with pip.
 
 ## Contact
 
