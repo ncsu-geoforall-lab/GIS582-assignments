@@ -15,16 +15,13 @@ The easiest way to run this assignment is using Google Colab. Click the badges b
 
 <!-- Update links as needed. -->
 
-Tutorial 1A.
+- Tutorial 1A. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1A_Tutorial.ipynb)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1A_Tutorial.ipynb)
+- Assignment 1A. [![Open Assignment 1A in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1A_Assignment.ipynb)
 
-Assignment 1A. [![Open Assignment 1A in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1A_Assignment.ipynb)
+- Tutorial 1B. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1B_Tutorial.ipynb)
 
-Tutorial 1B. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1B_Tutorial.ipynb)
-
-Assignment 1B.
-[![Open Assignment 1B in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1B_Assignment.ipynb)
+- Assignment 1B. [![Open Assignment 1B in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/1AB%20-%20Introduction%20to%20Jupyter%20Notebooks/1B_Assignment.ipynb)
 
 ### Local Notebooks
 
