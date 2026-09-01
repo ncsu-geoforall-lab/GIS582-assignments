@@ -1,6 +1,6 @@
-# GIS582 Assignment Notebooks
+# GIS 582 Assignment Notebooks
 
-Welcome to GIS582 from the GeoForAll Lab at North Carolina State University.
+Welcome to GIS 582 from the GeoForAll Lab at North Carolina State University.
 
 Course website: [https://ncsu-geoforall-lab.github.io/geospatial-modeling-course/index.html](https://ncsu-geoforall-lab.github.io/geospatial-modeling-course/index.html)
 
@@ -23,13 +23,13 @@ Knowledge of GIS principles at an introductory level or strong computational bac
   * display of continuous and discrete data, use of color to extract spatial patterns
   * 3D visualization: single and multiple surfaces
   * visualization for data analysis (lighting, zscaling, transparency, cutting planes, animations)
-* [(3AB - Geospatial Analysis](./3AB%20-%20Analysis/README.md)
+* [3AB - Geospatial Analysis](./3AB%20-%20Analysis/README.md)
   * foundations for analysis of continuous and discrete phenomena
   * zonal and neighborhood operations
   * analysis and modeling with map algebra
   * proximity analysis and buffers
   * cost surfaces and least cost path
-* [(4AB - Interpolation](./4AB%20-%20Interpolation/README.md)
+* [4AB - Interpolation](./4AB%20-%20Interpolation/README.md)
   * definitions, principles and applications of spatial interpolation
 selected methods and their properties
   * definitions, principles and applications of spatial interpolation
@@ -37,7 +37,7 @@ selected methods and their properties
   * smoothing spline interpolation
   * evaluating interpolation accuracy
   * trivariate interpolation of volumes and topo-climatology
-* [(5AB - Geomorphology](./5AB%20-%20Geomorphology/README.md)
+* [5AB - Geomorphology](./5AB%20-%20Geomorphology/README.md)
   * terrain and bathymetry mapping
   * digital representations (point clouds, contour, raster, TIN)
   * DEM, DTM and DSM, working with multiple return lidar data
