@@ -11,13 +11,17 @@ The easiest way to run this assignment is using Google Colab. Click the badges b
 
 ### Colab Notebooks
 
-#### 4A Tutorial/Assignment: Spatial interpolation and approximation I: methods
+#### 4A Tutorial: Spatial interpolation and approximation I: methods
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/4AB%20-%20Interpolation/4A_Tutorial.ipynb)
 
-#### 4B Tutorial/Assignment: Spatial interpolation: splines
+#### 4B Tutorial: Spatial interpolation: splines
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/4AB%20-%20Interpolation/4B_Tutorial.ipynb)
+
+#### 4AB Assignment: Spatial Interpolation
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ncsu-geoforall-lab/GIS582-assignments/blob/main/4AB%20-%20Interpolation/4AB_Assignment.ipynb)
 
 ### Local Notebooks
 
